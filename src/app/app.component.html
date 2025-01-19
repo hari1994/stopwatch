@@ -1,0 +1,16 @@
+<span>
+   <h2> Welcome to stopwatch App </h2>
+   </span> <br><br>
+
+   <button  (click)="stopWatch('start')"> Start
+   </button>
+   <button  (click)="stopWatch('stop')"> Stop
+   </button>
+   <button  (click)="stopWatch('reset')"> Reset
+   </button><br> <br>
+
+   <p>
+    {{timesValue | timewatch}}
+    </p>
+
+  
